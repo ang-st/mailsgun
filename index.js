@@ -16,7 +16,7 @@ MailGun.prototype.sendmail = function (options, cb ){
   this.nodemailerMailgun.sendMail({
     from: options.from,//'contact@bitcard.fr',
     to: options.to, // An array if you have multiple recipients.
-    subject: options.subject
+    subject: options.subject,
     html:options.content
   }, function (err, info) {
     if (err) {
