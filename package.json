@@ -1,0 +1,17 @@
+{
+  "name": "gunsmail",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jade": "^1.11.0",
+    "juice": "^2.0.0",
+    "nodemailer": "^2.4.2",
+    "nodemailer-mailgun-transport": "^1.2.1"
+  }
+}
